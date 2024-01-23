@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <style>
+        button {
+            padding: 10px;
+            color: white;
+            border: none;
+            cursor: pointer;
+            transition: 0.3s;
+        }
+
+        .button1 {
+            background-color: crimson;
+        }
+
+        .button1:hover {
+            background-color: darkred;
+            transform: scale(1.1);
+        }
+
+        .button2 {
+            background-color: crimson;
+        }
+
+        .button2:hover {
+            background-color: darkred;
+            transform: scale(1.1);
+        }
+    </style>
+</head>
+<body>
+
+<h2>Динамические таблицы производства мостов</h2>
+
+<p>Для перехода нажмите на кнопку</p>
+
+<button onclick="goToOne()" class="button1">Андон смена </button>
+<button onclick="goToTwo()" class="button2">Андон месяц</button>
+
+<script>
+function goToOne() {
+  //window.location.href = window.location.protocol + "//" + window.location.host + "/AndonPageOne";
+  window.open(window.location.protocol + "//" + window.location.host + "/AndonPageOne");
+}
+
+function goToTwo() {
+  //window.location.href = window.location.protocol + "//" + window.location.host + "/AndonPageTwo";
+  window.open(window.location.protocol + "//" + window.location.host + "/AndonPageTwo");
+}
+</script>
+</body>
+</html>

@@ -1,0 +1,613 @@
+﻿<html xmlns="http://www.w3.org/1999/xhtml">
+  <head>
+    <style type="text/css">table{border-collapse:collapse;table-layout:fixed;border-spacing:0;empty-cells:show}
+.X0{color:rgb(0,0,0);font-family:Calibri;font-size:11.0pt;vertical-align:bottom;text-align:center;word-wrap:break-word;height:50px;}
+.X1{color:rgb(255,255,255);font-family:Tahoma;font-size:12.0pt;background-color:rgb(255,255,255);font-weight:bold;vertical-align:center;text-align:general;word-wrap:break-word;height:50px;}
+.X2{color:rgb(210,12,69);font-family:Tahoma;font-size:14.0pt;background-color:rgb(217,217,217);font-weight:bold;vertical-align:center;text-align:center;word-wrap:break-word;height:50px;white-space:nowrap;}
+.X3{color:rgb(0,0,0);font-family:Calibri;font-size:11.0pt;background-color:rgb(255,255,255);vertical-align:bottom;text-align:center;word-wrap:break-word;height:26px;}
+.X4{color:rgb(255,255,255);font-family:Tahoma;font-size:12.0pt;background-color:rgb(64,64,64);font-weight:bold;vertical-align:center;text-align:center;word-wrap:break-word;height:26px;white-space:nowrap;}
+.X5{color:rgb(0,0,0);font-family:Calibri;font-size:11.0pt;background-color:rgb(255,255,255);vertical-align:bottom;text-align:general;word-wrap:break-word;height:26px;}
+.X6{color:rgb(210,12,69);font-family:Tahoma;font-size:14.0pt;background-color:rgb(255,255,255);font-weight:bold;vertical-align:center;text-align:center;word-wrap:break-word;height:26px;}
+.X7{color:rgb(0,0,0);font-family:Tahoma;font-size:14.0pt;background-color:rgb(166,166,166);font-weight:bold;vertical-align:center;text-align:center;word-wrap:break-word;height:26px;white-space:nowrap;}
+.X8{color:rgb(0,0,0);font-family:Tahoma;font-size:12.0pt;background-color:rgb(217,217,217);font-weight:bold;vertical-align:center;text-align:center;word-wrap:break-word;height:33px;white-space:nowrap;}
+.X9{color:rgb(0,0,0);font-family:Tahoma;font-size:12.0pt;background-color:rgb(175,171,171);font-weight:bold;vertical-align:center;text-align:center;word-wrap:break-word;height:33px;white-space:nowrap;}
+.X10{color:rgb(0,0,0);font-family:Tahoma;font-size:14.0pt;background-color:rgb(175,171,171);font-weight:bold;vertical-align:center;text-align:center;word-wrap:break-word;height:33px;white-space:nowrap;}
+.X11{color:rgb(0,0,0);font-family:Tahoma;font-size:14.0pt;background-color:rgb(255,255,255);font-weight:bold;vertical-align:center;text-align:center;word-wrap:break-word;height:33px;}
+.X12{color:rgb(0,0,0);font-family:Tahoma;font-size:8.0pt;background-color:rgb(217,217,217);font-weight:bold;vertical-align:center;text-align:center;word-wrap:break-word;height:33px;}
+.X13{color:rgb(0,0,0);font-family:Tahoma;font-size:14.0pt;background-color:rgb(217,217,217);font-weight:bold;vertical-align:center;text-align:center;word-wrap:break-word;height:33px;white-space:nowrap;}
+.X14{color:rgb(210,12,69);font-family:Tahoma;font-size:14.0pt;background-color:rgb(217,217,217);font-weight:bold;vertical-align:center;text-align:center;word-wrap:break-word;height:33px;white-space:nowrap;}
+.X15{color:rgb(210,12,69);font-family:Tahoma;font-size:14.0pt;background-color:rgb(217,217,217);font-weight:bold;vertical-align:center;text-align:center;word-wrap:break-word;height:34px;white-space:nowrap;}
+.X16{color:rgb(210,12,69);font-family:Tahoma;font-size:12.0pt;background-color:rgb(175,171,171);font-weight:bold;vertical-align:center;text-align:center;word-wrap:break-word;height:34px;white-space:nowrap;}
+.X17{color:rgb(210,12,69);font-family:Tahoma;font-size:14.0pt;background-color:rgb(175,171,171);font-weight:bold;vertical-align:center;text-align:center;word-wrap:break-word;height:34px;white-space:nowrap;}
+.X18{color:rgb(0,0,0);font-family:Tahoma;font-size:14.0pt;background-color:rgb(255,255,255);font-weight:bold;vertical-align:center;text-align:center;word-wrap:break-word;height:34px;}
+.X19{color:rgb(0,0,0);font-family:Tahoma;font-size:8.0pt;background-color:rgb(217,217,217);font-weight:bold;vertical-align:center;text-align:center;word-wrap:break-word;height:34px;white-space:nowrap;}
+.X20{color:rgb(0,0,0);font-family:Tahoma;font-size:14.0pt;background-color:rgb(217,217,217);font-weight:bold;vertical-align:center;text-align:center;word-wrap:break-word;height:34px;white-space:nowrap;}
+.X21{color:rgb(240,14,79);font-family:Tahoma;font-size:11.0pt;background-color:rgb(255,255,255);font-weight:bold;vertical-align:center;text-align:center;word-wrap:break-word;height:16px;}
+.X22{color:rgb(0,0,0);font-family:Tahoma;font-size:16.0pt;background-color:rgb(255,255,255);font-weight:bold;vertical-align:center;text-align:center;word-wrap:break-word;height:16px;}
+.X23{color:rgb(210,12,69);font-family:Tahoma;font-size:14.0pt;background-color:rgb(255,255,255);font-weight:bold;vertical-align:center;text-align:center;word-wrap:break-word;height:16px;}
+.X24{color:rgb(0,0,0);font-family:Tahoma;font-size:14.0pt;background-color:rgb(255,255,255);font-weight:bold;vertical-align:center;text-align:center;word-wrap:break-word;height:16px;}
+.X25{color:rgb(0,0,0);font-family:Calibri;font-size:11.0pt;background-color:rgb(255,255,255);vertical-align:bottom;text-align:general;word-wrap:break-word;height:16px;}
+.X26{color:rgb(210,12,69);font-family:Tahoma;font-size:18.0pt;background-color:rgb(217,217,217);font-weight:bold;vertical-align:center;text-align:center;word-wrap:break-word;height:32px;white-space:nowrap;}
+.X27{color:rgb(255,255,255);font-family:Tahoma;font-size:11.0pt;background-color:rgb(59,56,56);font-weight:bold;vertical-align:center;text-align:center;word-wrap:break-word;height:24px;white-space:nowrap;}
+.X28{color:rgb(255,255,255);font-family:Tahoma;font-size:14.0pt;background-color:rgb(59,56,56);font-weight:bold;vertical-align:center;text-align:center;word-wrap:break-word;height:24px;white-space:nowrap;}
+.X29{color:rgb(255,255,255);font-family:Tahoma;font-size:16.0pt;background-color:rgb(59,56,56);font-weight:bold;vertical-align:center;text-align:center;word-wrap:break-word;height:24px;white-space:nowrap;}
+.X30{color:rgb(255,255,255);font-family:Tahoma;font-size:14.0pt;background-color:rgb(59,56,56);font-weight:bold;vertical-align:center;text-align:center;word-wrap:break-word;height:26px;white-space:nowrap;}
+.X31{color:rgb(0,0,0);font-family:Tahoma;font-size:14.0pt;background-color:rgb(166,166,166);font-weight:bold;vertical-align:center;text-align:center;word-wrap:break-word;height:31px;white-space:nowrap;}
+.X32{color:rgb(0,0,0);font-family:Tahoma;font-size:18.0pt;background-color:rgb(166,166,166);font-weight:bold;vertical-align:center;text-align:center;word-wrap:break-word;height:31px;white-space:nowrap;}
+.X33{color:rgb(210,12,69);font-family:Tahoma;font-size:18.0pt;background-color:rgb(166,166,166);font-weight:bold;vertical-align:center;text-align:center;word-wrap:break-word;height:31px;white-space:nowrap;}
+.X34{color:rgb(0,0,0);font-family:Tahoma;font-size:14.0pt;background-color:rgb(217,217,217);font-weight:bold;vertical-align:center;text-align:center;word-wrap:break-word;height:31px;white-space:nowrap;}
+.X35{color:rgb(0,0,0);font-family:Tahoma;font-size:18.0pt;background-color:rgb(217,217,217);font-weight:bold;vertical-align:center;text-align:center;word-wrap:break-word;height:31px;white-space:nowrap;}
+.X36{color:rgb(210,12,69);font-family:Tahoma;font-size:18.0pt;background-color:rgb(217,217,217);font-weight:bold;vertical-align:center;text-align:center;word-wrap:break-word;height:31px;white-space:nowrap;}
+.X37{color:rgb(0,0,0);font-family:Tahoma;font-size:16.0pt;background-color:rgb(191,191,191);font-weight:bold;vertical-align:center;text-align:center;word-wrap:break-word;height:31px;white-space:nowrap;}
+.X38{color:rgb(0,0,0);font-family:Tahoma;font-size:20.0pt;background-color:rgb(191,191,191);font-weight:bold;vertical-align:center;text-align:center;word-wrap:break-word;height:31px;white-space:nowrap;}
+.X39{color:rgb(210,12,69);font-family:Tahoma;font-size:20.0pt;background-color:rgb(191,191,191);font-weight:bold;vertical-align:center;text-align:center;word-wrap:break-word;height:31px;white-space:nowrap;}
+.X40{color:rgb(0,0,0);font-family:Calibri;font-size:11.0pt;background-color:rgb(255,255,255);vertical-align:bottom;text-align:general;word-wrap:break-word;height:11px;}
+.X41{color:rgb(0,0,0);font-family:Calibri;font-size:11.0pt;background-color:rgb(255,255,255);vertical-align:bottom;text-align:general;word-wrap:break-word;height:7px;}
+.X42{color:rgb(0,0,0);font-family:Tahoma;font-size:10.0pt;background-color:rgb(166,166,166);font-weight:bold;vertical-align:center;text-align:center;word-wrap:break-word;height:28px;white-space:nowrap;}
+.X43{color:rgb(0,0,0);font-family:Tahoma;font-size:16.0pt;background-color:rgb(166,166,166);font-weight:bold;vertical-align:center;text-align:center;word-wrap:break-word;height:28px;white-space:nowrap;}
+.X44{color:rgb(0,0,0);font-family:Tahoma;font-size:10.0pt;background-color:rgb(217,217,217);font-weight:bold;vertical-align:center;text-align:center;word-wrap:break-word;height:28px;white-space:nowrap;}
+.X45{color:rgb(0,0,0);font-family:Tahoma;font-size:16.0pt;background-color:rgb(217,217,217);font-weight:bold;vertical-align:center;text-align:center;word-wrap:break-word;height:28px;white-space:nowrap;}
+.X46{color:rgb(0,0,0);font-family:Tahoma;font-size:14.0pt;background-color:rgb(217,217,217);font-weight:bold;vertical-align:center;text-align:center;word-wrap:break-word;height:28px;white-space:nowrap;}
+.X47{color:rgb(210,12,69);font-family:Tahoma;font-size:16.0pt;background-color:rgb(166,166,166);font-weight:bold;vertical-align:center;text-align:center;word-wrap:break-word;height:28px;white-space:nowrap;}
+.X48{color:rgb(210,12,69);font-family:Tahoma;font-size:14.0pt;background-color:rgb(166,166,166);font-weight:bold;vertical-align:center;text-align:center;word-wrap:break-word;height:28px;white-space:nowrap;}
+.X49{color:rgb(0,0,0);font-family:Calibri;font-size:11.0pt;vertical-align:bottom;text-align:general;word-wrap:break-word;height:21px;}
+.X50{color:rgb(0,0,0);font-family:Calibri;font-size:11.0pt;vertical-align:bottom;text-align:general;word-wrap:break-word;height:20px;}
+.X51{color:rgb(0,0,0);font-family:Calibri;font-size:11.0pt;vertical-align:bottom;text-align:general;word-wrap:break-word;height:20px;white-space:nowrap;}.ix0{margin-left:1px;margin-top:5px;height:39px;width:451px;position:absolute}
+</style>
+  </head>
+  <h2 style="color:red">Evaluation&nbsp;Warning&nbsp;:&nbsp;The&nbsp;document&nbsp;was&nbsp;created&nbsp;with&nbsp;&nbsp;Spire.XLS&nbsp;for&nbsp;Java</h2>
+  <body>
+    <img class="ix0" src="data:image/png;base64,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" alt="Image" />
+    <table cellspacing="0">
+      <Col width="94px" />
+      <Col width="231px" />
+      <Col width="114px" />
+      <Col width="117px" />
+      <Col width="61px" />
+      <Col width="135px" />
+      <Col width="96px" />
+      <Col width="79px" />
+      <tr>
+        <td COLSPAN="2" class="X0"><div style="width:350px !Important;width:350px;" /></td>
+        <td class="X1">
+          <div style="width:120px !Important;width:120px;" />
+        </td>
+        <td class="X1">
+          <div style="width:124px !Important;width:124px;" />
+        </td>
+        <td COLSPAN="4" class="X2">Участок&nbsp;сборки&nbsp;и&nbsp;обкатки&nbsp;мостов</td>
+      </tr>
+      <tr>
+        <td class="X3">
+          <div style="width:99px !Important;width:99px;" />
+        </td>
+        <td class="X3">
+          <div style="width:249px !Important;width:249px;" />
+        </td>
+        <td COLSPAN="2" class="X4">Время&nbsp;такта,&nbsp;мин</td>
+        <td class="X5">
+          <div style="width:64px !Important;width:64px;" />
+        </td>
+        <td class="X6">
+          <div style="width:143px !Important;width:143px;" />
+        </td>
+        <td class="X7">
+          <div style="width:96px;">План</div>
+        </td>
+        <td class="X7">
+          <div style="width:79px;">Факт</div>
+        </td>
+      </tr>
+      <tr>
+        <td class="X8">
+          <div style="width:94px;">Дата</div>
+        </td>
+        <td class="X8">
+          <div style="width:231px;">Время</div>
+        </td>
+        <td class="X9">
+          <div style="width:114px;">План</div>
+        </td>
+        <td class="X10">
+          <div style="width:117px;">23</div>
+        </td>
+        <td class="X11">
+          <div style="width:64px !Important;width:64px;" />
+        </td>
+        <td class="X12">
+          <div style="width:135px"><b><font style="color:Black;font-family:Tahoma;font-size:8.0pt;">Производительность&nbsp;ш<BR/></font></b><b><font style="color:Black;font-family:Tahoma;font-size:8.0pt;">т/чел</font></b></div>
+        </td>
+        <td class="X13">
+          <div style="width:96px;">3,3</div>
+        </td>
+        <td class="X14">
+          <div style="width:79px;">4</div>
+        </td>
+      </tr>
+      <tr>
+        <td class="X15">
+          <div style="width:94px;">19.01.24</div>
+        </td>
+        <td class="X15">
+          <div style="width:231px;">16:53</div>
+        </td>
+        <td class="X16">
+          <div style="width:114px;">Факт</div>
+        </td>
+        <td class="X17">
+          <div style="width:117px;">26</div>
+        </td>
+        <td class="X18">
+          <div style="width:64px !Important;width:64px;" />
+        </td>
+        <td class="X19">
+          <div style="width:135px;">Выработка,&nbsp;час/чел</div>
+        </td>
+        <td class="X20">
+          <div style="width:96px;">8</div>
+        </td>
+        <td class="X15">
+          <div style="width:79px;">7,8</div>
+        </td>
+      </tr>
+      <tr>
+        <td class="X21">
+          <div style="width:99px !Important;width:99px;" />
+        </td>
+        <td class="X22">
+          <div style="width:249px !Important;width:249px;" />
+        </td>
+        <td class="X23">
+          <div style="width:120px !Important;width:120px;" />
+        </td>
+        <td class="X23">
+          <div style="width:124px !Important;width:124px;" />
+        </td>
+        <td class="X24">
+          <div style="width:64px !Important;width:64px;" />
+        </td>
+        <td class="X25">
+          <div style="width:143px !Important;width:143px;" />
+        </td>
+        <td class="X25">
+          <div style="width:101px !Important;width:101px;" />
+        </td>
+        <td class="X25">
+          <div style="width:83px !Important;width:83px;" />
+        </td>
+      </tr>
+      <tr>
+        <td COLSPAN="8" class="X26">Выполнения&nbsp;плана&nbsp;производства</td>
+      </tr>
+      <tr>
+        <td ROWSPAN="2" class="X27">Машина</td>
+        <td ROWSPAN="2" class="X28">МВК</td>
+        <td COLSPAN="3" class="X29">Смена</td>
+        <td COLSPAN="3" class="X28">На&nbsp;текущий&nbsp;момент</td>
+      </tr>
+      <tr>
+        <td class="X30">
+          <div style="width:114px;">План</div>
+        </td>
+        <td class="X30">
+          <div style="width:117px;">Факт</div>
+        </td>
+        <td class="X30">
+          <div style="width:61px;">∆</div>
+        </td>
+        <td class="X30">
+          <div style="width:135px;">План</div>
+        </td>
+        <td class="X30">
+          <div style="width:96px;">Факт</div>
+        </td>
+        <td class="X30">
+          <div style="width:79px;">∆</div>
+        </td>
+      </tr>
+      <tr>
+        <td class="X31">
+          <div style="width:94px;">Акрос</div>
+        </td>
+        <td class="X31">
+          <div style="width:231px;">142.02.40.010</div>
+        </td>
+        <td class="X32">
+          <div style="width:114px;">7</div>
+        </td>
+        <td class="X32">
+          <div style="width:117px;">7</div>
+        </td>
+        <td class="X33">
+          <div style="width:61px;">0</div>
+        </td>
+        <td class="X32">
+          <div style="width:135px;">109</div>
+        </td>
+        <td class="X32">
+          <div style="width:96px;">109</div>
+        </td>
+        <td class="X33">
+          <div style="width:79px;">0</div>
+        </td>
+      </tr>
+      <tr>
+        <td class="X34">
+          <div style="width:94px;">Вектор</div>
+        </td>
+        <td class="X34">
+          <div style="width:231px;">142.02.41.010</div>
+        </td>
+        <td class="X35">
+          <div style="width:114px;">0</div>
+        </td>
+        <td class="X35">
+          <div style="width:117px;">0</div>
+        </td>
+        <td class="X36">
+          <div style="width:61px;">0</div>
+        </td>
+        <td class="X35">
+          <div style="width:135px;">0</div>
+        </td>
+        <td class="X35">
+          <div style="width:96px;">0</div>
+        </td>
+        <td class="X36">
+          <div style="width:79px;">0</div>
+        </td>
+      </tr>
+      <tr>
+        <td class="X31">
+          <div style="width:94px;">S300</div>
+        </td>
+        <td class="X31">
+          <div style="width:231px;">101.02.21.010</div>
+        </td>
+        <td class="X32">
+          <div style="width:114px;">0</div>
+        </td>
+        <td class="X32">
+          <div style="width:117px;">0</div>
+        </td>
+        <td class="X33">
+          <div style="width:61px;">0</div>
+        </td>
+        <td class="X32">
+          <div style="width:135px;">11</div>
+        </td>
+        <td class="X32">
+          <div style="width:96px;">11</div>
+        </td>
+        <td class="X33">
+          <div style="width:79px;">0</div>
+        </td>
+      </tr>
+      <tr>
+        <td class="X34">
+          <div style="width:94px;">Дон</div>
+        </td>
+        <td class="X34">
+          <div style="width:231px;">S300.02.16.010</div>
+        </td>
+        <td class="X35">
+          <div style="width:114px;">8</div>
+        </td>
+        <td class="X35">
+          <div style="width:117px;">8</div>
+        </td>
+        <td class="X36">
+          <div style="width:61px;">0</div>
+        </td>
+        <td class="X35">
+          <div style="width:135px;">8</div>
+        </td>
+        <td class="X35">
+          <div style="width:96px;">8</div>
+        </td>
+        <td class="X36">
+          <div style="width:79px;">0</div>
+        </td>
+      </tr>
+      <tr>
+        <td class="X31">
+          <div style="width:94px;">T500</div>
+        </td>
+        <td class="X31">
+          <div style="width:231px;">РСМ&nbsp;100.07.12.010</div>
+        </td>
+        <td class="X32">
+          <div style="width:114px;">0</div>
+        </td>
+        <td class="X32">
+          <div style="width:117px;">0</div>
+        </td>
+        <td class="X33">
+          <div style="width:61px;">0</div>
+        </td>
+        <td class="X32">
+          <div style="width:135px;">10</div>
+        </td>
+        <td class="X32">
+          <div style="width:96px;">10</div>
+        </td>
+        <td class="X33">
+          <div style="width:79px;">0</div>
+        </td>
+      </tr>
+      <tr>
+        <td class="X34">
+          <div style="width:94px;">Торум</div>
+        </td>
+        <td class="X34">
+          <div style="width:231px;">154.02.05.010</div>
+        </td>
+        <td class="X35">
+          <div style="width:114px;">0</div>
+        </td>
+        <td class="X35">
+          <div style="width:117px;">0</div>
+        </td>
+        <td class="X36">
+          <div style="width:61px;">0</div>
+        </td>
+        <td class="X35">
+          <div style="width:135px;">14</div>
+        </td>
+        <td class="X35">
+          <div style="width:96px;">14</div>
+        </td>
+        <td class="X36">
+          <div style="width:79px;">0</div>
+        </td>
+      </tr>
+      <tr>
+        <td class="X31">
+          <div style="width:94px;">РСМ&nbsp;161</div>
+        </td>
+        <td class="X31">
+          <div style="width:231px;">181.02.42.010</div>
+        </td>
+        <td class="X32">
+          <div style="width:114px;">2</div>
+        </td>
+        <td class="X32">
+          <div style="width:117px;">2</div>
+        </td>
+        <td class="X33">
+          <div style="width:61px;">0</div>
+        </td>
+        <td class="X32">
+          <div style="width:135px;">16</div>
+        </td>
+        <td class="X32">
+          <div style="width:96px;">16</div>
+        </td>
+        <td class="X33">
+          <div style="width:79px;">0</div>
+        </td>
+      </tr>
+      <tr>
+        <td class="X34">
+          <div style="width:94px;">F1300</div>
+        </td>
+        <td class="X34">
+          <div style="width:231px;">161.02.10.010</div>
+        </td>
+        <td class="X35">
+          <div style="width:114px;">0</div>
+        </td>
+        <td class="X35">
+          <div style="width:117px;">0</div>
+        </td>
+        <td class="X36">
+          <div style="width:61px;">0</div>
+        </td>
+        <td class="X35">
+          <div style="width:135px;">5</div>
+        </td>
+        <td class="X35">
+          <div style="width:96px;">5</div>
+        </td>
+        <td class="X36">
+          <div style="width:79px;">0</div>
+        </td>
+      </tr>
+      <tr>
+        <td class="X31">
+          <div style="width:94px;">F2650</div>
+        </td>
+        <td class="X31">
+          <div style="width:231px;">1300.02.11.010</div>
+        </td>
+        <td class="X32">
+          <div style="width:114px;">0</div>
+        </td>
+        <td class="X32">
+          <div style="width:117px;">0</div>
+        </td>
+        <td class="X33">
+          <div style="width:61px;">0</div>
+        </td>
+        <td class="X32">
+          <div style="width:135px;">0</div>
+        </td>
+        <td class="X32">
+          <div style="width:96px;">0</div>
+        </td>
+        <td class="X33">
+          <div style="width:79px;">0</div>
+        </td>
+      </tr>
+      <tr>
+        <td COLSPAN="2" class="X37">∑&nbsp;МВК</td>
+        <td class="X38">
+          <div style="width:114px;">17</div>
+        </td>
+        <td class="X38">
+          <div style="width:117px;">17</div>
+        </td>
+        <td class="X39">
+          <div style="width:61px;">0</div>
+        </td>
+        <td class="X38">
+          <div style="width:135px;">173</div>
+        </td>
+        <td class="X38">
+          <div style="width:96px;">173</div>
+        </td>
+        <td class="X39">
+          <div style="width:79px;">0</div>
+        </td>
+      </tr>
+      <tr>
+        <td class="X40">
+          <div style="width:99px !Important;width:99px;" />
+        </td>
+        <td class="X40">
+          <div style="width:249px !Important;width:249px;" />
+        </td>
+        <td class="X40">
+          <div style="width:120px !Important;width:120px;" />
+        </td>
+        <td class="X40">
+          <div style="width:124px !Important;width:124px;" />
+        </td>
+        <td class="X40">
+          <div style="width:64px !Important;width:64px;" />
+        </td>
+        <td class="X40">
+          <div style="width:143px !Important;width:143px;" />
+        </td>
+        <td class="X40">
+          <div style="width:101px !Important;width:101px;" />
+        </td>
+        <td class="X40">
+          <div style="width:83px !Important;width:83px;" />
+        </td>
+      </tr>
+      <tr>
+        <td COLSPAN="8" class="X36">Укомплектованность&nbsp;персоналом</td>
+      </tr>
+      <tr>
+        <td class="X41">
+          <div style="width:99px !Important;width:99px;" />
+        </td>
+        <td class="X41">
+          <div style="width:249px !Important;width:249px;" />
+        </td>
+        <td class="X41">
+          <div style="width:120px !Important;width:120px;" />
+        </td>
+        <td class="X41">
+          <div style="width:124px !Important;width:124px;" />
+        </td>
+        <td class="X41">
+          <div style="width:64px !Important;width:64px;" />
+        </td>
+        <td class="X41">
+          <div style="width:143px !Important;width:143px;" />
+        </td>
+        <td class="X41">
+          <div style="width:101px !Important;width:101px;" />
+        </td>
+        <td class="X41">
+          <div style="width:83px !Important;width:83px;" />
+        </td>
+      </tr>
+      <tr>
+        <td COLSPAN="2" class="X42">Штатная&nbsp;численность</td>
+        <td COLSPAN="2" class="X43">6</td>
+        <td COLSPAN="4" class="X42">%&nbsp;от&nbsp;штатной&nbsp;численности</td>
+      </tr>
+      <tr>
+        <td COLSPAN="2" class="X44">Фактическая&nbsp;численность</td>
+        <td COLSPAN="2" class="X45">5</td>
+        <td COLSPAN="4" class="X46">83%</td>
+      </tr>
+      <tr>
+        <td COLSPAN="2" class="X42">Явочная&nbsp;численность</td>
+        <td COLSPAN="2" class="X47">5</td>
+        <td COLSPAN="4" class="X48">83%</td>
+      </tr>
+      <tr>
+        <td class="X49">
+          <div style="width:99px !Important;width:99px;" />
+        </td>
+        <td class="X49">
+          <div style="width:249px !Important;width:249px;" />
+        </td>
+        <td class="X49">
+          <div style="width:120px !Important;width:120px;" />
+        </td>
+        <td class="X49">
+          <div style="width:124px !Important;width:124px;" />
+        </td>
+        <td class="X49">
+          <div style="width:64px !Important;width:64px;" />
+        </td>
+        <td class="X49">
+          <div style="width:143px !Important;width:143px;" />
+        </td>
+        <td class="X49">
+          <div style="width:101px !Important;width:101px;" />
+        </td>
+        <td class="X49">
+          <div style="width:83px !Important;width:83px;" />
+        </td>
+      </tr>
+      <tr>
+        <td class="X50">
+          <div style="width:99px !Important;width:99px;" />
+        </td>
+        <td class="X50">
+          <div style="width:249px !Important;width:249px;" />
+        </td>
+        <td class="X50">
+          <div style="width:120px !Important;width:120px;" />
+        </td>
+        <td class="X50">
+          <div style="width:124px !Important;width:124px;" />
+        </td>
+        <td class="X50">
+          <div style="width:64px !Important;width:64px;" />
+        </td>
+        <td class="X50">
+          <div style="width:143px !Important;width:143px;" />
+        </td>
+        <td class="X50">
+          <div style="width:101px !Important;width:101px;" />
+        </td>
+        <td class="X50">
+          <div style="width:83px !Important;width:83px;" />
+        </td>
+      </tr>
+      <tr>
+        <td class="X50">
+          <div style="width:99px !Important;width:99px;" />
+        </td>
+        <td class="X50">
+          <div style="width:249px !Important;width:249px;" />
+        </td>
+        <td class="X50">
+          <div style="width:120px !Important;width:120px;" />
+        </td>
+        <td class="X50">
+          <div style="width:124px !Important;width:124px;" />
+        </td>
+        <td class="X51">
+          <div style="width:61px;">&nbsp;</div>
+        </td>
+        <td class="X50">
+          <div style="width:143px !Important;width:143px;" />
+        </td>
+        <td class="X50">
+          <div style="width:101px !Important;width:101px;" />
+        </td>
+        <td class="X50">
+          <div style="width:83px !Important;width:83px;" />
+        </td>
+      </tr>
+    </table>
+  </body>
+</html>
